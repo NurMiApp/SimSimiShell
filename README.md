@@ -3,5 +3,11 @@
 # 지도 시간
 웹사이트의 Git 복제본.
 ```
-git clone ""
+git clone https://github.com/nurmi-github-actions-bot/SimSimiShell.git
 ```
+파이썬/셸
+```
+bash sample.sh
+```
+# 설치
+마켓플레이스가 곧 출시됩니다!
