@@ -8,12 +8,12 @@ def get_simsimi_response(user_input):
     return data['response']
 def main():
     while True:
-        user_input = input("You SimSimi: SimSimi, ")
+        user_input = input("You SimSimi: SimSimi, now this")
         if user_input.lower() == 'exit':
             print("Terminate the chatbot.")
             break
         response = simsimi_chatbot.get_simsimi_response(user_input)
-        print("SimSimi: Yourself, " + response)
+        print("SimSimi: Yourself, sure ask" + response)
 
 if __name__ == '__main__':
     main()
