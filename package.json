@@ -1,0 +1,22 @@
+{
+  "name": "simsimishell",
+  "version": "1.0.0",
+  "description": "Shell and Python for NpmSimi",
+  "main": "index.js",
+  "scripts": {
+    "test": "script shell"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurmi-github-actions-bot/SimSimiShell.git"
+  },
+  "keywords": [
+    "npmsimi"
+  ],
+  "author": "sashanurmi@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nurmi-github-actions-bot/SimSimiShell/issues"
+  },
+  "homepage": "https://github.com/nurmi-github-actions-bot/SimSimiShell#readme"
+}
