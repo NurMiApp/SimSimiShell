@@ -14,6 +14,14 @@ def main():
             break
         response = simsimi_chatbot.get_simsimi_response(user_input)
         print("SimSimi: Yourself, sure ask" + response)
+ with open('fixed_syntax.py', 'r', encoding='utf-8') as file:
+       content = file.read()
+
+   # Replace non-break spaces with regular spaces
+   content = content.replace('\u00a0', ' ')
+
+   with open('fixed_syntax.py', 'w', encoding='utf-8') as file:
+       file.write(content)
 
 if __name__ == '__main__':
     main()
